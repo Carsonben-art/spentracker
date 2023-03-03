@@ -13,7 +13,7 @@ const Main = () => {
     const {balance} = useContext(ExpenseTrackerContext);
   return (
     <Card className={classes.root}>
-        <CardHeader title="Spending Tracker" subheader="Track your spending with ease." />
+        <CardHeader title="BudgetBuddy" subheader="A Smart App for Tracking Your Finances in real-Time." />
         <CardContent>
             <Typography align='center' variant='h5'>Total Balance Ksh {balance} </Typography>
             <Typography variant='subtitle1' style={{ lineHeight: '1.5em', marginTop: '20px'}}>
